@@ -88,9 +88,20 @@
         list-style: none;
     }
 
-    .respMenu {
+    .respMenu .itemMenu{
         display: block;
         padding: 1.2rem;
+    }
+
+    .respMenu .menuDireito {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .respMenu .menuDireito a {
+        text-align: center;
+        display: block;
+        width: 100%;
     }
 
     .abrir {
