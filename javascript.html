@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Formulário Bootstrap</title>
 </head>
 <body>
@@ -62,8 +62,27 @@
                 <input type="text" name="resultado" id="resultado" class="form-control" placeholder="Resultado" readonly>
             </div>  
         </div>
-        <button type="button" class="btn btn-secondary" onclick="somarValores()">Calcular</button>
+        <button type="button" id="btnSomar" class="btn btn-secondary">Somar</button>
     </form>
+
+
+    <form action="">
+      <div class="row g-3">
+          <div class="col">
+              <label for="altura" class="form-label">Altura</label>
+            <input type="text" class="form-control" placeholder="Altura" aria-label="Altura" name="altura" id="altura">
+          </div>
+          <div class="col">
+              <label for="peso" class="form-label">Peso</label>
+            <input type="text" class="form-control" placeholder="Peso" aria-label="Peso" name="peso" id="peso">
+          </div>
+          <div class="col">
+              <label class="form-label">Índice</label>
+              <input type="text" name="indice" id="indice" class="form-control" placeholder="Índice" readonly>
+          </div>  
+      </div>
+      <button type="button" id="btnCalcular" class="btn btn-secondary">Calcular</button>
+  </form>
 
 </main>
 
