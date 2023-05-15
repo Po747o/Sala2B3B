@@ -39,4 +39,4 @@ bCalcular.addEventListener("click", ()=> {
 function calcularIMC(altura, peso) {
     var imc = peso / (altura * altura);
     document.querySelector("#indice").value = indice;
-}
+} //tenho que corrigir
